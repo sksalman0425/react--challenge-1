@@ -20,6 +20,7 @@ export default function Profile({ person, imageSize = 70 }) {
           </li>
           <li>
             <b>Awards: {person.awards.length} </b>
+            {/* here by using JS join method we are seprating array by comma  */}
             ({person.awards.join(', ')})
           </li>
           <li>
